@@ -2,7 +2,7 @@
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
-            <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
+            <h1><span data-i18n="projects.my_projects">Some fun stuffs</span></h1>
         </div>
     </div>
     <div class="row">
@@ -29,6 +29,10 @@
                   {% endif %}
                   </h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
+                  {% if project.video %}
+                  <embed width="100%" height="300"
+                  src="{{ project.video }}">
+                  {% endif %}
                   {% if project.repo %}
                   <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
                       <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
@@ -36,6 +40,8 @@
                       <div style="height: 10px;"></div>
                   </div>
                   {% endif %}
+
+
               </div>
           </div>
       {% endfor %}
