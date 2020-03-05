@@ -81,7 +81,7 @@ h3, h4, h5 {
 }
 
 .navbar-default {
-  border-color: #2f4050;
+  border-color: #212121;
 }
 
 .navbar-top-links li {
@@ -609,7 +609,7 @@ button.dim {
 
 .btn-white {
   color: inherit;
-  background: #fff;
+  background: #424242;
   border: 1px solid #e7eaec;
   &.active {
     color: inherit;
@@ -852,7 +852,7 @@ button.dim:active:before {
 }
 
 .form-control {
-  background-color: #FFF;
+  background-color: #424242;
   background-image: none;
   border: 1px solid #e5e6e7;
   border-radius: 1px;
@@ -1120,7 +1120,7 @@ label.error {
 .vertical-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #fff;
+  background: #424242;
   border-radius: .25em;
   padding: 1em;
   &:after {
@@ -1360,7 +1360,7 @@ code {
 }
 
 .ibox-content, .ibox-title {
-  background-color: #fff;
+  background-color: #212121;
   border-color: #e7eaec;
   border-image: none;
   border-style: solid solid none;
@@ -1884,7 +1884,7 @@ ul.clear-list:first-child {
 .article {
   h1 {
     font-size: 48px;
-    color: #2F4050;
+    color: #E0E0E0;
   }
   p {
     font-size: 15px;
@@ -1953,12 +1953,12 @@ ul.clear-list:first-child {
 
 .vote-item {
   padding: 20px 25px;
-  background: #fff;
+  background: #424242;
   &:last-child {
     border-bottom: 1px solid #e7eaec;
   }
   &:hover {
-    background: #fbfbfb;
+    background: #757575;
   }
 }
 
@@ -2003,7 +2003,7 @@ ul.clear-list:first-child {
   font-size: 38px;
   color: #e8e9ea;
   &.active {
-    color: #3385FF;
+    color: #607D8B;
   }
 }
 
@@ -2012,9 +2012,9 @@ body {
     display: none;
   }
   &.landing-page {
-    color: #03070a;
+    color: #E0E0E0;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
-    background-color: rgb(24, 21, 21);
+    background-color: #212121;
   }
 }
 
@@ -2369,7 +2369,7 @@ body {
     color: #3385FF;
     text-decoration: none;
     &:hover {
-      color: #3385FF;
+      color: #607D8B;
     }
   }
   section p {
@@ -2404,8 +2404,8 @@ body {
   }
   .navbar-default {
     &.navbar-scroll {
-      background-color: #fff;
-      border-color: #fff;
+      background-color: #212121;
+      border-color: #212121;
       padding: 15px 0;
     }
     background-color: transparent;
@@ -2429,16 +2429,16 @@ body {
       .active > a {
         background: 0 0;
         color: #fff;
-        border-top: 6px solid #3385FF;
+        border-top: 6px solid #DD2C00 ;
         &:hover {
           background: 0 0;
           color: #fff;
-          border-top: 6px solid #3385FF;
+          border-top: 6px solid #FF5722;
         }
       }
       li > a {
         &:focus, &:hover {
-          color: #3385FF;
+          color: #FF5722;
           background: inherit;
         }
       }
@@ -2453,14 +2453,14 @@ body {
     }
     .navbar-brand {
       &:focus, &:hover {
-        background: #3385FF;
+        background: #FF8A65;
         color: #fff;
       }
       color: #fff;
       height: auto;
       display: block;
       font-size: 14px;
-      background: #3385FF;
+      background: #DD2C00;
       padding: 15px 20px;
       border-radius: 0 0 5px 5px;
       font-weight: 700;
@@ -2468,9 +2468,9 @@ body {
     }
   }
   .navbar-scroll.navbar-default .nav li a {
-    color: #676a6c;
+    color: #E0E0E0;
     &:hover {
-      color: #3385FF;
+      color: #FF5722;
     }
   }
   .navbar-wrapper .navbar.navbar-scroll {
@@ -2623,7 +2623,7 @@ body {
     padding: 20px 0;
   }
   .gray-section {
-    background: #f4f4f4;
+    background: #616161;
     margin-top: 60px;
   }
   .team-member {
@@ -2633,7 +2633,7 @@ body {
     }
   }
   .social-icon a {
-    background: #3385FF;
+    background: #607D8B;
     color: #fff;
     padding: 4px 8px;
     height: 28px;
@@ -2641,7 +2641,7 @@ body {
     display: block;
     border-radius: 50px;
     &:hover {
-      background: #3385FF;
+      background: #607D8B;
     }
   }
   .img-small {
@@ -2655,7 +2655,7 @@ body {
   .testimonials {
     padding-top: 80px;
     padding-bottom: 90px;
-    background-color: #3385FF;
+    background-color: #616161;
     background-image: url(../assets/img/landing/avatar_all.png);
   }
   .contact {
@@ -2758,8 +2758,8 @@ body {
       margin-top: 6px;
     }
     .navbar-default {
-      background-color: #fff;
-      border-color: #fff;
+      background-color: #212121;
+      border-color: #212121;
       padding: 15px 0;
       .navbar-nav > .active > a:focus {
         background: 0 0;
