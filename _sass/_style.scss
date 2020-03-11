@@ -608,11 +608,11 @@ button.dim {
 }
 
 .btn-white {
-  color: inherit;
+  color: #F5F5F5;
   background: #424242;
   border: 1px solid #e7eaec;
   &.active {
-    color: inherit;
+    color: #DD2C00;
     border: 1px solid #d2d2d2;
     &:focus, &:hover {
       color: inherit;
@@ -620,15 +620,15 @@ button.dim {
     }
   }
   &:active {
-    color: inherit;
+    color: #DD2C00;
     border: 1px solid #d2d2d2;
     &:focus, &:hover {
-      color: inherit;
+      color: #DD2C00;
       border: 1px solid #d2d2d2;
     }
   }
   &:focus, &:hover {
-    color: inherit;
+    color: #DD2C00;
     border: 1px solid #d2d2d2;
   }
   &.active, &:active {
@@ -1088,6 +1088,7 @@ label.error {
   height: 40px;
   border-radius: 50%;
   font-size: 16px;
+  
   border: 3px solid #f1f1f1;
   i {
     display: block;
@@ -1098,6 +1099,7 @@ label.error {
     top: 50%;
     margin-left: -12px;
     margin-top: -9px;
+    color: #212121;
   }
 }
 
@@ -1361,7 +1363,7 @@ code {
 
 .ibox-content, .ibox-title {
   background-color: #F5F5F5;
-  border-color: #424242;
+  border-color: #F5F5F5;
   border-image: none;
   border-style: solid solid none;
 }
@@ -1392,7 +1394,8 @@ code {
 }
 
 .ibox-content {
-  color: inherit;
+  background-color: #424242;
+  color: #BDBDBD;
   padding: 15px 20px 20px;
   border-width: 1px 0;
   clear: both;
@@ -1435,7 +1438,7 @@ code {
 }
 
 .navy-bg-present {
-  background-color: #1cf400;
+  background-color: #3385FF;
   color: #fff;
 }
 
@@ -1899,6 +1902,7 @@ ul.clear-list:first-child {
 }
 
 .article .ibox-content {
+  background-color: #F5F5F5;
   padding: 40px;
 }
 
