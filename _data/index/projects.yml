@@ -43,3 +43,10 @@
   repo: airdrop-software
   img: /static/assets/img/project/space_man.png
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+
+- name: Personal Website
+  i18n: jalpc
+  gh_user: Rainerino
+  repo: Rainerino.github.io
+  img: /static/assets/img/landing/jekyll.png
+  desc: You are looking at it.
