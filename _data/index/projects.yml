@@ -1,51 +1,45 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-- name: Python
+- name: The helping hands
   i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
+  gh_user: allison98
+  repo: nwhacks2020
+  img: /static/assets/img/project/robot_arm.png
   desc: This project is other's project. I use another request to get repo's information.
 
-# - name: Google
-#   i18n: google
-#   url: https://google.com
-#   # video: https://www.youtube.com/embed/Qh2yT-AL1V8?autoplay=1?controls=0
-#   img: /static/assets/img/landing/google.png
-#   desc: This is another project.
-
-- name: Python
+- name: GCOM
   i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
+  gh_user: ubcuas
+  repo: GCOM
+  img: /static/assets/img/project/ubcuas.png
   desc: This project is other's project. I use another request to get repo's information.
   
-- name: Jalpc
+- name: Quantum Friendship Network
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
+  gh_user: jackyruth
+  repo: Quantum_Friendship_Network
+  img: /static/assets/img/project/qc.png
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-- name: Jalpc
+- name: UAS Winch
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
+  gh_user: Rainerino
+  repo: UAS-winch
+  img: /static/assets/img/project/winch.png
+  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+
+- name: GeoTag
+  i18n: jalpc
+  gh_user: wchang22
+  repo: GeoTag
+  img: /static/assets/img/project/geo.png
+  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+
+- name: UAS 2018 Airdrop Software
+  i18n: jalpc
+  gl_user: Rainerino
+  repo: airdrop-software
+  img: /static/assets/img/project/space_man.png
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.

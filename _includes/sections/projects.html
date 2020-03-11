@@ -22,6 +22,8 @@
                   <h4>
                   {% if project.url %}
                   <a href="{{ project.url }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
+                  {% elsif project.gl_user %}
+                  <a href="https://gitlab.com/{{ project.gl_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
                   {% elsif project.repo %}
                   <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
                   {% else %}
@@ -29,16 +31,19 @@
                   {% endif %}
                   </h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
-                  <!-- {% if project.video %}
-                  <embed width="100%" height="300"
-                  src="{{ project.video }}">
-                  {% endif %} -->
-                  {% if project.repo %}
-                  <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
-                      <div style="height: 10px;"></div>
-                  </div>
+
+                  {% if project.gl_user %}
+                    <div user="{{ project.gl_user }}" repo="{{ project.repo }}" class="ghbtn">
+                        <a target="_blank" style="width: 65px;" href="https://gitlab.com/{{ project.gl_user }}/{{ project.repo }}/-/starrers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                        <a target="_blank" style="width: 65px;" href="https://gitlab.com/{{ project.gl_user }}/{{ project.repo }}/forks" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                        <div style="height: 10px;"></div>
+                    </div>
+                  {% elsif project.repo %}
+                    <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
+                        <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                        <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                        <div style="height: 10px;"></div>
+                    </div>
                   {% endif %}
 
 
