@@ -1140,6 +1140,7 @@ label.error {
   }
   .vertical-date {
     float: left;
+    color: #F5F5F5;
     font-weight: 500;
   }
 }
@@ -2378,6 +2379,10 @@ body {
     }
   }
   section p {
+    color: #aeaeae;
+    font-size: 13px;
+  }
+  section li{
     color: #aeaeae;
     font-size: 13px;
   }
