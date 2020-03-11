@@ -16,11 +16,11 @@ author:  # change following line to your infomation.
   last_name: Yan  # Be used at index page about me section.
   avatar: /static/assets/img/landing/profile.jpg  # upload your avatar at directory and edit it.
   github_username: Rainerino  # Leave blank if you don't have now
-  linkedin_id: jarrekk # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
+  linkedin_id: albert-yiyi-yan-217a7a106 # Leave blank if you don't have now
+  facebook_username: albertyanyy  # Leave blank if you don't have now
+  # twitter_username: jiakun614  # Leave blank if you don't have now
   email: yyan11@alumni.ubc.ca  # Leave blank if you don't have now
-  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://www.slideshare.net/slideshow/embed_code/key/EMQxBme1cczxkl  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-python
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-plane
     - name: fa-rocket
-  desc: Introduce myself will be here.  # Describe yourself.
+  # desc: Introduce myself will be here.  # Describe yourself.
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
