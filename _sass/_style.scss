@@ -1120,7 +1120,7 @@ label.error {
 .vertical-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #424242;
+  background: #212121;
   border-radius: .25em;
   padding: 1em;
   &:after {
@@ -1360,8 +1360,8 @@ code {
 }
 
 .ibox-content, .ibox-title {
-  background-color: #212121;
-  border-color: #e7eaec;
+  background-color: #F5F5F5;
+  border-color: #424242;
   border-image: none;
   border-style: solid solid none;
 }
@@ -1884,9 +1884,10 @@ ul.clear-list:first-child {
 .article {
   h1 {
     font-size: 48px;
-    color: #E0E0E0;
+    color: #212121;
   }
   p {
+    color: #212121;
     font-size: 15px;
     line-height: 26px;
   }
@@ -2623,7 +2624,7 @@ body {
     padding: 20px 0;
   }
   .gray-section {
-    background: #616161;
+    background: #424242;
     margin-top: 60px;
   }
   .team-member {
