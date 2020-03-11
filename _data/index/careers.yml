@@ -5,7 +5,7 @@
     detail: UBC Collaborative Advanced Robotics and Intelligent Systems Laboratory (CARIS) <a href="https://caris.mech.ubc.ca/" target="_blank">link</a>
     i18n: company_b
   desc:
-    detail: Research kinesthetic teaching under Dr. Elizabeth Croft. Implement a record and playback code of the kinematics and vision data on the PR2 during the teaching and analysis the data to find the optimal teaching method.
+    detail: Research kinesthetic teaching under Dr. Elizabeth Croft. Implement a record and playback code of the kinematics and vision data on the PR2 during the teaching and analysis the data to find the optimal teaching method.  <br> <br> <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/83842483_2539110302883769_2055203505391534080_n.jpg?_nc_cat=103&_nc_sid=7aed08&_nc_oc=AQnDrDDF7mOfnF3JWmcwpqAYzzoKaMJfCd9c3R9-HYE3cK68UDg4B3u9U3SGreXXA4w&_nc_ht=scontent-sea1-1.xx&oh=ae5881d447582da055af27b21d67e75b&oe=5E8E67F4" width="100%" height="100%">
     i18n: company_b_desc
   date:
     detail: Jan. 2020
@@ -20,7 +20,7 @@
     detail: UBC System-on-chip Drone Security Lab <a href="https://blogs.ubc.ca/mehdi/" target="_blank">link</a>
     i18n: company_b
   desc:
-    detail: <li>Found security vulnerability to Man-In-The-Middle(MITM) and Denial-of-Service(DoS) attack in UAV's unencrypted telemetry communication with Mavlink protocol. <li>Wrapped Mavlink messages with AES to prevent MITM attacks, and bench marked against other encryption methods, showed that software encryption cannot meet the requirements of micro-UAV communication. <li> Built and tuned a 450 grade research quadcopter and assisted flight testing and data collection, analyzed Ardupliot data-logs for MITM attacks detection with python scripts. 
+    detail: <li>Found security vulnerability to Man-In-The-Middle(MITM) and Denial-of-Service(DoS) attack in UAV's unencrypted telemetry communication with Mavlink protocol. <li>Wrapped Mavlink messages with AES to prevent MITM attacks, and bench marked against other encryption methods, showed that software encryption cannot meet the requirements of micro-UAV communication. <li> Built and tuned a 450 grade research quadcopter and assisted flight testing and data collection, analyzed Ardupliot data-logs for MITM attacks detection with python scripts. <br> <br> <img src="https://blogs.ubc.ca/mehdi/files/2019/03/20190306_104518-1024x576.jpg" width="100%" height="100%">
     i18n: company_b_desc
   date:
     detail: Dec. 2018 - Aug. 2019
@@ -35,7 +35,7 @@
     detail: UBC Unmanned Aircraft System Design Team <a href="https://www.ubcuas.com/" target="_blank">link</a>
     i18n: company_b
   desc:
-    detail: <li> Designed and developed an <b>Unmanned Ground Vehicle (UGV)</b> by leading a team of 10 students. This 6 month project aims to release the UGV from 30 meters AGL, which will then autonomously deliver a payload to a target location, navigated with GPS, barometer, magnetometer and IMU. <li> Implemented and tested an image triggering and transferring system using Sony A5100, Raspberry Pi 3B+ with lsync, and UAV ground control software connected with a <b>React based Dajngo + Postgresql server</b> through Dronekit. Reduced the flight operation time by 25 %. <li> Designed, reviewed and implemented a winch and rover system using <b>Solidworks</b> and developed the first iteration of UAS Payload system in under 3 months. <li> Implemented a wildlife recognition kernel using <b>OpenCV</b>, along with a user interface using <b>Qt-creator</b> for manual identification and verification. 
+    detail: <li> Designed and developed an <b>Unmanned Ground Vehicle (UGV)</b> by leading a team of 10 students. This 6 month project aims to release the UGV from 30 meters AGL, which will then autonomously deliver a payload to a target location, navigated with GPS, barometer, magnetometer and IMU. <li> Implemented and tested an image triggering and transferring system using Sony A5100, Raspberry Pi 3B+ with lsync, and UAV ground control software connected with a <b>React based Dajngo + Postgresql server</b> through Dronekit. Reduced the flight operation time by 25 %. <li> Designed, reviewed and implemented a winch and rover system using <b>Solidworks</b> and developed the first iteration of UAS Payload system in under 3 months. <li> Implemented a wildlife recognition kernel using <b>OpenCV</b>, along with a user interface using <b>Qt-creator</b> for manual identification and verification. . <br> <br> <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/71949265_2299545983506870_8915015937875247104_o.jpg?_nc_cat=106&_nc_sid=dd9801&_nc_oc=AQkF1O98Dg9ELzSyeYh7J2Gm-r-RfunLDwoqchcdOlhsaZWHKVXFXs-RanfxMeIR0UA&_nc_ht=scontent-sea1-1.xx&oh=4c54249ddb635d75f825decceaa084bb&oe=5E933ACD" width="100%" height="100%">
     i18n: company_b_desc
   date:
     detail: Dec. 2016
@@ -59,4 +59,20 @@
     detail: Undergraduate
     i18n: company_a_job
   icon: fa-address-card
+  present: true
+
+
+- name:
+    detail: Biking Across Canada <a href="https://www.youtube.com/watch?v=5DbCyKPXaoc" target="_blank">link</a>
+    i18n: company_b
+  desc:
+    detail: My buddy and I biked across Canada together, from Vancouver Island (Chemainus) to Nova Scotia (Halifax)! It took us about 2 month, where we spent 1 month between to attend his brother's wedding in Tornoto. <br> It was a trip of my life, making me apperiate what I have even more while being amazed by the beauty of nature and Canada's welcomeness.<br> <br> <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/11165259_701910799937071_1068851454824482807_n.jpg?_nc_cat=104&_nc_sid=7aed08&_nc_oc=AQlaqDLMgbGPONs813U9J9d-W9F3TWuYeAtO_ceO7P-4aCB7ryHWWjsEeBGFow6dRD0&_nc_ht=scontent-sea1-1.xx&oh=dafd14e00b08f513c4a946b76d1d9fc5&oe=5E936DD5" width="100%" height="100%">
+    i18n: company_b_desc
+  date:
+    detail: April. 2015 - June. 2015
+    i18n: company_b_date
+  job:
+    detail: Half of the carrier, filmographier and the full bike mechanic
+    i18n: company_b_job
+  icon: fa-bicycle
   present: true

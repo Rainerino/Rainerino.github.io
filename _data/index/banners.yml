@@ -2,8 +2,20 @@
 # Add items for each banner image in the carousel
 #
 # Images are expected to be located in `static/assets/img/`.
-- src: landing/header_one.jpg
-  title: first banner image
+- src: landing/condor_fly_cut.jpg
+  title: condor epic shoot
 
-- src: landing/header_two.jpg
-  title: second banner image
+- src: landing/lidar_cut.jpeg
+  title: lidar
+
+- src: landing/pr2_large_resize_cut.jpg
+  title: ROS PR2
+
+- src: landing/raven_grass_cut.jpg
+  title: Raven quadcopter
+  
+- src: landing/self_balance_cube_resize_cut.jpg
+  title: drones
+
+- src: landing/programming_resize_big_cut.jpeg
+  title: programming
