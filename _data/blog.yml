@@ -9,16 +9,13 @@
   href: /robotic/
 
 - name: Embedded System
-  href: /embed/
+  href: /embedded/
 
 - name: UAV
   href: /drone/
 
-- name: ROS
-  href: /ros/
-
-- name: Math
-  href: /math/
+- name: Course
+  href: /course/
 
 - name: Computer Vision
   href: /cv/
@@ -26,6 +23,4 @@
 - name: Life
   href: /life/
 
-# Don't display donation page: change donation to off at file '_config.yml'
-- name: Donate
-  href: /donate/
+
