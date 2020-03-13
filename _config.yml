@@ -28,7 +28,7 @@ author: # change following line to your infomation.
   skill_icon2:
     - name: fa-plane
     - name: fa-rocket
-    # desc: Introduce myself will be here.  # Describe yourself.
+  desc: <b>"Don't blame you"</b>, said Marvin and counted <i>five hundred and ninety-seven thousand million sheep</i> before falling asleep again a second later. <br/>--- Douglas Adams, The Hitchhiker's Guide to the Galaxy
 
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

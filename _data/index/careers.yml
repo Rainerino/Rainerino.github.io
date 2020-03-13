@@ -1,5 +1,15 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: Motion Metric <a href="https://www.motionmetrics.com/" target="_blank">link</a>
+  desc:
+    detail: Motion Metrics International is a fast-growing high-tech company that provides advanced monitoring solutions to the mining industry. <br/> <br/> I will be working with products that combine custom-designed rugged hardware and "embedded + cloud-based" software to address some of the most challenging problems in the mining industry by using imaging and other sensor technologies <br> <br> <img src="https://www.mining-technology.com/wp-content/uploads/static-progressive/nri/mining/clients/Motion%20Metrics/lead.jpg" width="100%" height="100%">
+  date:
+    detail: May. 2020 - Aug. 2020
+  job:
+    detail: Incoming Software Developer Intern.
+  icon: fa-code
+  present: true
 
 - name:
     detail: UBC Collaborative Advanced Robotics and Intelligent Systems Laboratory (CARIS) <a href="https://caris.mech.ubc.ca/" target="_blank">link</a>
