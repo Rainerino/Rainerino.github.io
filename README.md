@@ -1,3 +1,1 @@
-# my-app
-
-This project was bootstrapped with [`create-r3f-app`](https://github.com/utsuboco/create-r3f-app)
+Reference: https://github.com/gkjohnson/gkjohnson.github.io/
